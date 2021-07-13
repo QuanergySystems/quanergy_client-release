@@ -1,0 +1,12 @@
+Source: ros-melodic-quanergy-client
+Section: misc
+Priority: optional
+Maintainer: Ross Taylor <ross.taylor@quanergy.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, libboost-all-dev, libpcl-dev
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-quanergy-client
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libpcl-dev, ros-melodic-catkin
+Description: Quanergy Sensor SDK
